@@ -14,11 +14,9 @@ body {
 nav {
   width: 100%;
   background-color: transparent;
-  /* line-height: 60px; */
 }
 
 nav .logo {
-  /* border: 1px solid black; */
   width: 40%;
 }
 
@@ -65,7 +63,6 @@ nav .logo > img {
 }
 
 .actions .checks {
-  /* border: 1px solid black; */
   display: flex;
   font-size: 13px;
 }
@@ -91,7 +88,6 @@ nav .logo > img {
 .brands {
   width: 100%;
   height: auto;
-  /* border: 1px solid black; */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -99,7 +95,6 @@ nav .logo > img {
 
 .brands > div {
   width: 13%;
-  /* border: 1px solid black; */
   text-align: center;
 }
 
@@ -134,7 +129,6 @@ nav .logo > img {
 .services > div {
   width: 30%;
   min-height: 250px;
-  /* border: 1px solid black; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -153,14 +147,12 @@ nav .logo > img {
 }
 
 /* Jobs steps container */
-
 .job-steps {
   text-align: center;
 }
 .job-steps-container {
   width: 100%;
   min-height: 100vh;
-  /* background-color: silver; */
 }
 
 .job-steps-container > h2 {
@@ -265,10 +257,7 @@ nav .logo > img {
 .reviews-section {
   width: 100%;
   min-height: 100vh;
-  /* border: 1px solid black; */
-  /* background-color: silver; */
   margin: 80px 0 0;
-  /* padding: 30px 0; */
 }
 
 #review-heading {
@@ -280,7 +269,6 @@ nav .logo > img {
 .review-container {
   width: 100%;
   min-height: auto;
-  /* border: 2px solid black; */
   padding: 20px 0;
   display: flex;
   justify-content: center;
@@ -320,7 +308,6 @@ nav .logo > img {
   min-height: 80vh;
   margin-top: 20px;
   margin-bottom: 70px;
-  /* background-color: silver; */
 }
 .price-container > h1 {
   text-align: center;
@@ -330,7 +317,6 @@ nav .logo > img {
 .price-cards {
   width: 90%;
   height: 70vh;
-  /* border: 1px solid black; */
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -443,7 +429,6 @@ footer > button {
   display: flex;
   justify-content: space-around;
   margin-bottom: 20px;
-  /* border: 1px solid black; */
 }
 
 .last-section > p {
@@ -471,7 +456,6 @@ footer > button {
     align-items: center;
     padding: 40px 0;
     height: auto;
-    /* background-color: silver; */
   }
 
   .heading-img {
@@ -482,7 +466,6 @@ footer > button {
 
   .abstract-glossy {
     width: 60%;
-    /* border: 1px solid black; */
     margin: 20px 0;
   }
   .actions {
@@ -545,7 +528,6 @@ footer > button {
   .row {
     width: 100%;
     height: auto;
-    /* border: 1px solid black; */
     margin: 0 auto;
     padding: 20px;
   }
@@ -554,7 +536,6 @@ footer > button {
     width: 100%;
     height: 250px;
     position: relative;
-    /* border: 1px solid red; */
     left: 0%;
     top: 0px !important;
     bottom: 0;
@@ -600,7 +581,6 @@ footer > button {
     align-items: flex-start;
     padding: 20px;
     margin: 0 auto;
-    /* width: 300px; */
   }
   .price-card > button {
     width: 90%;
@@ -640,7 +620,6 @@ footer > button {
   .row2 {
     width: 100%;
     height: auto;
-    /* border: 1px solid black; */
     margin: 40px auto 0;
     position: relative;
     padding: 30px 10px;
@@ -649,7 +628,6 @@ footer > button {
     width: 300px;
     height: 250px;
     position: relative;
-    /* border: 1px solid red; */
     left: 0%;
     top: 0px !important;
     bottom: 0;
@@ -666,17 +644,12 @@ footer > button {
     display: inline;
     top: -30px;
     text-align: right;
-    /* border: 1px solid black; */
   }
   .row2 > p {
     left: 5%;
     width: 320px;
     top: -20px;
   }
-
-  /* .row3 {
-    margin-top: 100px;
-  } */
 }
 
 @media screen and (min-width: 601px) and (max-width: 1024px) {
@@ -722,7 +695,6 @@ footer > button {
   }
 
   .row > h2 {
-    /* border: 1px solid black; */
     width: 50%;
     position: relative;
     left: 8%;
@@ -748,7 +720,6 @@ footer > button {
   .row2 {
     width: 100%;
     padding: 20px;
-    /* border: 1px solid black; */
   }
 
   .row2 > img {
@@ -763,36 +734,3 @@ footer > button {
     width: 300px;
   }
 }
-
-/* @media screen and (min-width: 910px) and (max-width: 1024px) {
-  .hero-section {
-    height: 50vh;
-    padding: 100px 80px;
-  }
-  .abstract-glossy {
-    width: 40%;
-    margin-right: 0;
-  }
-
-  .hero-section .actions {
-    width: 400px;
-  }
-  .services-container {
-    min-height: 45vh;
-  }
-  .reviews-section {
-    width: 100%;
-    min-height: 40vh;
-  }
-  .price-container {
-    width: 100%;
-    min-height: 50vh;
-  }
-  .price-cards {
-    width: 90%;
-    height: 40vh;
-  }
-  .price-cards > div {
-    padding: 0 20px;
-  }
-} */
