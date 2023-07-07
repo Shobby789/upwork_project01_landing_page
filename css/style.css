@@ -169,15 +169,13 @@ nav .logo > img {
 
 .row {
   width: 80%;
-  height: 250px;
-  border: 1px solid black;
+  height: auto;
   margin: 0 auto;
   position: relative;
   padding: 30px 0;
   color: #120036;
 }
 .row > h2 {
-  /* border: 1px solid black; */
   width: 50%;
   position: relative;
   left: 5%;
@@ -216,7 +214,6 @@ nav .logo > img {
 .row2 {
   width: 80%;
   height: 250px;
-  /* border: 1px solid black; */
   margin: 70px auto 0;
   position: relative;
   padding: 30px 0;
@@ -226,7 +223,6 @@ nav .logo > img {
 .row2 > img {
   width: 350px;
   height: 300px;
-  border: 1px solid red;
   position: absolute;
   top: -30px;
   bottom: 0;
@@ -252,7 +248,6 @@ nav .logo > img {
   left: 50%;
   width: 430px;
   display: inline-block;
-  border: 1px solid black;
   font-size: 20px;
   top: -20px;
 }
@@ -270,13 +265,16 @@ nav .logo > img {
 .reviews-section {
   width: 100%;
   min-height: 100vh;
+  /* border: 1px solid black; */
   /* background-color: silver; */
   margin: 80px 0 0;
   /* padding: 30px 0; */
 }
 
-.reviews-section > h1 {
-  text-align: center;
+#review-heading {
+  text-align: center !important;
+  width: 300px;
+  margin: auto;
 }
 
 .review-container {
@@ -548,40 +546,38 @@ footer > button {
     width: 100%;
     height: auto;
     /* border: 1px solid black; */
-    margin: auto;
+    margin: 0 auto;
     padding: 20px;
   }
 
   .row .img {
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    height: 250px;
     position: relative;
-    right: 50px;
-    top: 50px;
-    left: 25%;
-    margin-bottom: 20px;
+    /* border: 1px solid red; */
+    left: 0%;
+    top: 0px !important;
+    bottom: 0;
   }
 
   .row > h2 {
     display: inline;
     font-size: 18px;
-
     text-align: justify;
+    width: 250px;
+    position: relative;
+    top: 5px;
   }
 
   .row > p {
-    top: 0;
+    top: -10px;
     left: 0;
-    width: 100%;
+    width: 300px;
   }
 
   .review-container {
     flex-direction: column;
   }
-
-  /* .review-card {
-    margin: 20px auto !important;
-  } */
 
   /* price cards */
   .price-cards {
@@ -664,11 +660,11 @@ footer > button {
   }
 
   .row2 .step2-text {
-    left: 2%;
+    left: 1%;
     width: 300px;
     font-size: 20px;
     display: inline;
-    top: -40px;
+    top: -30px;
     text-align: right;
     /* border: 1px solid black; */
   }
@@ -752,7 +748,7 @@ footer > button {
   .row2 {
     width: 100%;
     padding: 20px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
   }
 
   .row2 > img {
