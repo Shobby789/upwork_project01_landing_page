@@ -64,6 +64,7 @@ nav .logo > img {
   border: 1.5px solid #6136ff;
   font-weight: 500;
   cursor: pointer;
+  font-size: 0.6em;
 }
 
 .actions .checks {
@@ -499,7 +500,7 @@ footer > a {
     font-size: 15px;
     margin-bottom: 10px;
   }
-  .btns > button {
+  .btns > a {
     padding: 8px 10px;
     border-radius: 30px;
     color: #5d4789;
