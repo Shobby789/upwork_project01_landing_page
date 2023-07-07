@@ -205,7 +205,9 @@ nav .logo > img {
   padding: 10px 15px;
   background-color: black;
   color: white !important;
-  margin-right: 10px;
+  margin-right: 0px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 /* row2 */
@@ -230,7 +232,8 @@ nav .logo > img {
 .row2 .step2 {
   position: relative;
   left: 50%;
-  width: 50%;
+  width: 40px;
+  height: 40px;
   color: #ffffff;
   padding: 10px 15px;
   background-color: black;
