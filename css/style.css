@@ -54,7 +54,7 @@ nav .logo > img {
   font-weight: 500;
 }
 
-.actions .btns > button {
+.actions .btns > a {
   padding: 10px 30px;
   border-radius: 30px;
   border: 1.5px solid #6136ff;
@@ -402,7 +402,7 @@ footer > h2 {
   margin: 0 auto;
 }
 
-footer > button {
+footer > a {
   background-color: #6136ff;
   font-weight: 500;
   font-size: 15px;
