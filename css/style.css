@@ -557,8 +557,8 @@ footer > a {
     height: 250px;
     position: relative;
     left: 0%;
-    top: 0px !important;
-    bottom: 0;
+    top: 15px !important;
+    bottom: 20px;
   }
 
   .row > .row-heading2 {
@@ -650,7 +650,7 @@ footer > a {
     height: 250px;
     position: relative;
     left: 5%;
-    top: 0px !important;
+    top: -30px !important;
     bottom: 0;
   }
   .row2 .step2 {
@@ -663,13 +663,13 @@ footer > a {
     width: 240px;
     font-size: 20px;
     display: inline-block;
-    /* top: 20px; */
+    /* top: 0px; */
     /* text-align: right; */
   }
   .row2 > p {
     left: 5%;
     width: 320px;
-    top: -20px;
+    top: -30px;
   }
 }
 
