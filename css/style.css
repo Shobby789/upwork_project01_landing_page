@@ -562,17 +562,18 @@ footer > a {
   }
 
   .row > .row-heading2 {
-    display: inline;
+    display: inline-block;
     font-size: 18px;
     text-align: justify;
-    width: 200px;
+    width: 230px;
     position: relative;
-    top: 5px;
+    top: 50px;
   }
 
   .row > p {
     top: -10px;
-    left: 0;
+    /* left: 10px; */
+    /* margin: 0 auto; */
     width: 300px;
   }
 
@@ -659,11 +660,11 @@ footer > a {
 
   .row2 .step2-text {
     left: 1%;
-    width: 300px;
+    width: 240px;
     font-size: 20px;
-    display: inline;
-    top: -30px;
-    text-align: right;
+    display: inline-block;
+    /* top: 20px; */
+    /* text-align: right; */
   }
   .row2 > p {
     left: 5%;
