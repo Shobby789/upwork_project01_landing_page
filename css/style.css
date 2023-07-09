@@ -361,6 +361,7 @@ nav .logo > img {
 .price-container > h1 {
   text-align: center;
   margin: 50px 0;
+  font-size: 30px;
 }
 
 .price-cards {
@@ -709,6 +710,10 @@ footer > a {
     height: 90vh;
     /* background-color: aqua; */
     margin-bottom: 20px;
+  }
+
+  .price-container > h1 {
+    font-size: 24px;
   }
 
   /* price cards */
