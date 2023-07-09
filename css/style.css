@@ -517,7 +517,7 @@ footer > a {
   color: #5e6e78;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 667px) {
   /* nav {
     background-color: #563499;
   } */
@@ -669,10 +669,10 @@ footer > a {
 
   .row .img {
     width: 100%;
-    height: 250px;
+    height: 300px;
     position: relative;
     left: 0%;
-    top: 15px !important;
+    top: 0px !important;
     bottom: 20px;
     padding: 20px;
     /* border: 1px solid black; */
@@ -696,7 +696,7 @@ footer > a {
 
   .row > p {
     display: block;
-    top: -10px;
+    top: -15px;
     margin: 0 auto;
     width: 280px;
     /* border: 1px solid black; */
