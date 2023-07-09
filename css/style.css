@@ -9,6 +9,7 @@
 
 body {
   background: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 nav {
@@ -329,7 +330,7 @@ nav .logo > img {
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  margin: 0px 40px;
+  margin: 0px 20px;
   color: #120036;
   position: relative;
   padding: 0 20px 10px;
@@ -339,9 +340,10 @@ nav .logo > img {
 }
 
 .review-card > h1 {
-  font-size: 45px;
+  font-size: 70px;
   position: relative;
-  top: -11px;
+  top: -19px;
+  font-family: Helvetica;
 }
 
 .bottom-para {
@@ -413,10 +415,18 @@ nav .logo > img {
   position: relative;
   font-size: 15px;
   font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.price-card > h3 {
+  font-size: 24px;
+}
+.price-card > h1 {
+  font-size: 40px;
 }
 
 .price-card .small-text {
-  font-size: 10px;
+  font-size: 13px;
+  /* font-weight: 400; */
   position: relative;
   top: -20px;
 }
