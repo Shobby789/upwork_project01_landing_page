@@ -370,9 +370,10 @@ nav .logo > img {
   transition: 0.4s;
 }
 .sub-para {
-  font-size: 20px;
+  font-size: 17px;
   position: relative;
   bottom: 5px;
+  left: 7px;
 }
 /* Footer */
 footer {
