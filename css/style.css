@@ -585,11 +585,11 @@ footer > a {
   }
   #heading1 {
     position: relative;
-    top: 25px;
+    top: 18px;
   }
   .row > p {
     display: block;
-    top: -15px;
+    top: -25px;
     margin: 0 auto;
     width: 280px;
   }
@@ -708,7 +708,7 @@ footer > a {
     width: 265px;
     font-size: 20px;
     display: inline-block;
-    top: -16px;
+    top: -25px;
   }
   .row2 > p {
     position: relative;
