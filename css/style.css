@@ -487,6 +487,7 @@ footer > a {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: flex-start;
   }
   .actions > p {
     color: #5d4789;
@@ -501,6 +502,7 @@ footer > a {
     border: 1.5px solid #5d4789;
   }
   .btns .btn1 {
+    padding: 10px 35px;
     background-color: #6136ff;
     color: #ffffff;
   }
@@ -508,6 +510,7 @@ footer > a {
     width: 129px;
     height: 56px;
     font-weight: 500;
+    padding: 10px 20px;
   }
   .actions .checks {
     display: flex;
