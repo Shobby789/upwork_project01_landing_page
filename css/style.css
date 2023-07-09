@@ -756,7 +756,7 @@ footer > a {
   .price-card {
     align-items: flex-start;
     padding: 20px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
   }
   .price-card > button {
     width: 90%;
