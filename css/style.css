@@ -345,12 +345,13 @@ nav .logo > img {
   font-size: 24px;
 }
 .price-card > h1 {
-  font-size: 40px;
+  font-size: 48px;
+  letter-spacing: 2px;
 }
 .price-card .small-text {
   font-size: 13px;
   position: relative;
-  top: -20px;
+  top: -10px;
 }
 .price-card > button {
   background: #6136ff;
@@ -361,12 +362,17 @@ nav .logo > img {
   padding: 10px;
   border-radius: 10px;
   position: relative;
-  top: 15px;
+  top: 10px;
   cursor: pointer;
 }
 .price-card > button:hover {
   background-color: #563499;
   transition: 0.4s;
+}
+.sub-para {
+  font-size: 20px;
+  position: relative;
+  bottom: 5px;
 }
 /* Footer */
 footer {
