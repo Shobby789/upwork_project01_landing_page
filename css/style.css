@@ -176,6 +176,7 @@ nav .logo > img {
   top: -30px;
   font-size: 13px;
   font-weight: 500;
+  line-height: 28px;
 }
 .row > img {
   width: 340px;
@@ -242,6 +243,7 @@ nav .logo > img {
   left: 56%;
   width: 410px;
   top: -10px;
+  line-height: 28px;
 }
 /* User Reviews */
 .reviews-section {
