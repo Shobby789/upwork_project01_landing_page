@@ -397,9 +397,10 @@ footer {
   align-items: center;
 }
 footer > h2 {
-  width: 45%;
+  width: 60%;
   text-align: center;
   color: #ffffff;
+  font-size: 32px;
 }
 footer > a {
   display: block;
