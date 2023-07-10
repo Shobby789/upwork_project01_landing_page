@@ -581,6 +581,9 @@ footer > a {
     bottom: 20px;
     padding: 20px;
   }
+  .row2 .step2 {
+    width: 28px;
+  }
   .row > .row-heading2 {
     display: inline-block;
     font-size: 20px;
