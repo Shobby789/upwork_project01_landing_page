@@ -767,7 +767,8 @@ footer > a {
   }
 
   .brands {
-    width: 1025px;
+    width: 990px;
+    margin-left: 20px;
   }
   .services-container {
     width: 1024px;
