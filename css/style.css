@@ -477,7 +477,7 @@ footer > a {
     margin: 0 auto;
   }
   .actions {
-    width: 90%;
+    width: 88%;
     height: 230px;
     border: 1px solid transparent;
     border-radius: 10px;
@@ -601,6 +601,7 @@ footer > a {
     padding-bottom: 50px;
   }
   .review-container .review-card {
+    width: 320px;
     height: 400px;
     margin: 20px 0;
   }
@@ -641,12 +642,14 @@ footer > a {
   .price-card {
     align-items: flex-start;
     padding: 20px;
+    width: 340px;
   }
   .price-card > button {
     width: 90%;
     margin: 0 auto;
   }
   footer {
+    width: 90%;
     height: 290px;
     padding: 0px 0;
     padding: 10px 15px;
