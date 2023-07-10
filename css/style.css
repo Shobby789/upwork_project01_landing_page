@@ -141,6 +141,10 @@ nav .logo > img {
   margin: 10px 0;
   color: #5e6e78;
 }
+#paragraph3 {
+  /* border: 1px solid black; */
+  width: 250px;
+}
 /* Jobs steps container */
 .job-steps {
   text-align: center;
